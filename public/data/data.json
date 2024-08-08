@@ -1,0 +1,278 @@
+{
+   "home": {
+      "sections": [
+         {
+            "title": "Create and share your photo Stories",
+            "description": "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
+            "cta": "Get an invite",
+            "images": {
+               "desktop": "/images/desktop/create-and-share.svg",
+               "tablet": "/images/tablet/create-and-share.svg",
+               "mobile": "/images/mobile/create-and-share.svg"
+            }
+         },
+         {
+            "title": "Beautiful stories every time",
+            "description": "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
+            "cta": "View the stories",
+            "images": {
+               "desktop": "/images/desktop/beautiful-stories.svg",
+               "tablet": "/images/tablet/beautiful-stories.svg",
+               "mobile": "/images/mobile/beautiful-stories.svg"
+            }
+         },
+         {
+            "title": "Designed for everyone",
+            "description": "Photosnap can help you create stories that resonate with your audience. Our tool is designed for photographers of all levels, brands, businesses—you name it.",
+            "cta": "View the stories",
+            "images": {
+               "desktop": "/images/desktop/designed-for-everyone.svg",
+               "tablet": "/images/tablet/designed-for-everyone.svg",
+               "mobile": "/images/mobile/designed-for-everyone.svg"
+            }
+         }
+      ],
+      "stories": [
+         {
+            "title": "The Mountains",
+            "author": "by John Appleseed",
+            "cta": "Read Story"
+         },
+         {
+            "title": "Sunset Cityscapes",
+            "author": "by Benjamin Cruz",
+            "cta": "Read Story"
+         },
+         {
+            "title": "18 Days Voyage",
+            "author": "by Alexei Borodin",
+            "cta": "Read Story"
+         },
+         {
+            "title": "Architecturals",
+            "author": "by Samantha Brooke",
+            "cta": "Read Story"
+         }
+      ],
+      "features": [
+         {
+            "title": "100% Responsive",
+            "description": "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen."
+         },
+         {
+            "title": "No Photo Upload Limit",
+            "description": "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go."
+         },
+         {
+            "title": "Available to Embed",
+            "description": "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more."
+         }
+      ]
+   },
+
+   "features": {
+      "header": {
+         "primary_cta": "Get an invite",
+         "title": "Features",
+         "description": "We make sure all of our features are designed to be loved by every aspiring and even professional photographers who want to share their stories."
+      },
+      "features": [
+         {
+            "title": "100% Responsive",
+            "description": "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen."
+         },
+         {
+            "title": "No Photo Upload Limit",
+            "description": "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go."
+         },
+         {
+            "title": "Available to Embed",
+            "description": "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more."
+         },
+         {
+            "title": "Custom Domain",
+            "description": "With Photosnap subscriptions, you can host your stories on your own domain. You can also remove our branding!"
+         },
+         {
+            "title": "Boost Your Exposure",
+            "description": "Users that viewed your story or gallery can easily get notified of new and featured stories with our built-in mailing list."
+         },
+         {
+            "title": "Drag & Drop Image",
+            "description": "Easily drag and drop your image and get beautiful shots every time. No over-the-top tooling to add friction to creating stories."
+         }
+      ],
+      "beta_message": "We're in Beta. Get your invite today!"
+   },
+   "pricing": {
+      "header": {
+         "primary_cta": "Get an invite",
+         "title": "Pricing",
+         "description": "Create your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos."
+      },
+      "pricing_options": [
+         {
+            "billing_options": ["Monthly", "Yearly"]
+         },
+         {
+            "plan": "Basic",
+            "description": "Includes basic usage of our platform. Recommended for new and aspiring photographers.",
+            "monthly_price": "$19.00 per month",
+            "yearly_price": "$190.00 per year",
+            "cta": "Pick Plan"
+         },
+         {
+            "plan": "Pro",
+            "description": "More advanced features available. Recommended for photography veterans and professionals.",
+            "monthly_price": "$39.00 per month",
+            "yearly_price": "$390.00 per year",
+            "cta": "Pick Plan"
+         },
+         {
+            "plan": "Business",
+            "description": "Additional features available such as more detailed metrics. Recommended for business owners.",
+            "monthly_price": "$99.00 per month",
+            "yearly_price": "$990.00 per year",
+            "cta": "Pick Plan"
+         }
+      ],
+      "comparison_section": {
+         "title": "Compare",
+         "subtitle": "The Features",
+         "plans": ["Basic", "Pro", "Business"],
+         "features": [
+            "Unlimited Story Posting",
+            "Unlimited Photo Upload",
+            "Embedding Custom Content",
+            "Customize Metadata",
+            "Advanced Metrics",
+            "Photo Downloads",
+            "Search Engine Indexing",
+            "Custom Analytics"
+         ]
+      },
+      "beta_message": "We're in Beta. Get your invite today!"
+   },
+   "stories": {
+      "header": {
+         "primary_cta": "Get an invite",
+         "featured_story": {
+            "title": "Last month's featured story",
+            "story_title": "Hazy full moon of Appalachia",
+            "date": "March 2nd 2020",
+            "author": "by John Appleseed",
+            "description": "The dissected plateau area, while not actually made up of geological mountains, is popularly called 'mountains,' especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.",
+            "cta": "Read the story"
+         }
+      },
+      "stories": [
+         {
+            "date": "April 16th 2020",
+            "title": "The Mountains",
+            "author": "by John Appleseed",
+            "cta": "Read Story"
+         },
+         {
+            "date": "April 14th 2020",
+            "title": "Sunset Cityscapes",
+            "author": "by Benjamin Cruz",
+            "cta": "Read Story"
+         },
+         {
+            "date": "April 11th 2020",
+            "title": "18 Days Voyage",
+            "author": "by Alexei Borodin",
+            "cta": "Read Story"
+         },
+         {
+            "date": "April 9th 2020",
+            "title": "Architecturals",
+            "author": "by Samantha Brooke",
+            "cta": "Read Story"
+         },
+         {
+            "date": "April 7th 2020",
+            "title": "World Tour 2019",
+            "author": "by Timothy Wagner",
+            "cta": "Read Story"
+         },
+         {
+            "date": "April 3rd 2020",
+            "title": "Unforeseen Corners",
+            "author": "by William Malcolm",
+            "cta": "Read Story"
+         },
+         {
+            "date": "March 29th 2020",
+            "title": "King on Africa: Part II",
+            "author": "by Tim Hillenburg",
+            "cta": "Read Story"
+         },
+         {
+            "date": "March 21st 2020",
+            "title": "The Trip to Nowhere",
+            "author": "by Felicia Rourke",
+            "cta": "Read Story"
+         },
+         {
+            "date": "March 19th 2020",
+            "title": "Rage of The Sea",
+            "author": "by Mohammed Abdul",
+            "cta": "Read Story"
+         },
+         {
+            "date": "March 16th 2020",
+            "title": "Running Free",
+            "author": "by Michelle",
+            "cta": "Read Story"
+         },
+         {
+            "date": "March 11th 2020",
+            "title": "Behind the Waves",
+            "author": "by Lamarr Wilson",
+            "cta": "Read Story"
+         },
+         {
+            "date": "March 9th 2020",
+            "title": "Calm Waters",
+            "author": "by Samantha Brooke",
+            "cta": "Read Story"
+         },
+         {
+            "date": "March 5th 2020",
+            "title": "The Milky Way",
+            "author": "by Benjamin Cruz",
+            "cta": "Read Story"
+         },
+         {
+            "date": "March 4th 2020",
+            "title": "Night at The Dark Forest",
+            "author": "by Mohammed Abdul",
+            "cta": "Read Story"
+         },
+         {
+            "date": "March 1st 2020",
+            "title": "Somwarpet’s Beauty",
+            "author": "by Michelle",
+            "cta": "Read Story"
+         },
+         {
+            "date": "February 25th 2020",
+            "title": "Land of Dreams",
+            "author": "by William Malcolm",
+            "cta": "Read Story"
+         }
+      ]
+   },
+   "global": {
+      "nav": {
+         "items": ["Stories", "Features", "Pricing"],
+         "cta": "Get an invite"
+      },
+      "footer": {
+         "nav_items": ["Home", "Stories", "Features", "Pricing"],
+         "secondary_cta": "Get an invite",
+         "copyright": "Copyright 2019. All Rights Reserved"
+      }
+   }
+}
