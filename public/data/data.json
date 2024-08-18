@@ -267,12 +267,14 @@
    "global": {
       "nav": {
          "items": ["Stories", "Features", "Pricing"],
-         "cta": "Get an invite"
+         "cta": "Get an invite",
+         "logo": "/images/shared/desktop/logo.svg"
       },
       "footer": {
          "nav_items": ["Home", "Stories", "Features", "Pricing"],
          "secondary_cta": "Get an invite",
-         "copyright": "Copyright 2019. All Rights Reserved"
+         "copyright": "Copyright 2019. All Rights Reserved",
+         "logo": "/images/shared/desktop/logo-white.svg"
       }
    }
 }
