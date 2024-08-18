@@ -40,7 +40,7 @@ export default function Navbar({ data }) {
 
         {menuState && (
           <>
-            <div className="flex flex-col md:flex-row md:items-center md:gap-4">
+            <div className="flex-col md:flex-row md:items-center md:gap-4">
               <NavList listItems={items} />
               <hr className="mb-6 h-[0.6px] w-full bg-lightGrey md:hidden" />
             </div>
