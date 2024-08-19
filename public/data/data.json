@@ -176,16 +176,19 @@
     },
     "beta_message": "We're in Beta. Get your invite today!"
   },
+
   "stories": {
     "header": {
-      "primary_cta": "Get an invite",
-      "featured_story": {
-        "title": "Last month's featured story",
-        "story_title": "Hazy full moon of Appalachia",
-        "date": "March 2nd 2020",
-        "author": "by John Appleseed",
-        "description": "The dissected plateau area, while not actually made up of geological mountains, is popularly called 'mountains,' especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.",
-        "cta": "Read the story"
+      "story_title": "Last month's featured story",
+      "title": "Hazy full moon of Appalachia",
+      "date": "March 2nd 2020",
+      "author": "by John Appleseed",
+      "description": "The dissected plateau area, while not actually made up of geological mountains, is popularly called 'mountains,' especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.",
+      "cta": "Read the story",
+      "images": {
+        "desktop": "/images/stories/desktop/moon-of-appalacia.jpg",
+        "tablet": "/images/stories/tablet/moon-of-appalacia.jpg",
+        "mobile": "/images/stories/mobile/moon-of-appalacia.jpg"
       }
     },
     "stories": [
@@ -193,97 +196,177 @@
         "date": "April 16th 2020",
         "title": "The Mountains",
         "author": "by John Appleseed",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/mountains.jpg",
+          "tablet": "/images/stories/tablet/mountains.jpg",
+          "mobile": "/images/stories/mobile/mountains.jpg"
+        }
       },
       {
         "date": "April 14th 2020",
         "title": "Sunset Cityscapes",
         "author": "by Benjamin Cruz",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/cityscapes.jpg",
+          "tablet": "/images/stories/tablet/cityscapes.jpg",
+          "mobile": "/images/stories/mobile/cityscapes.jpg"
+        }
       },
       {
         "date": "April 11th 2020",
         "title": "18 Days Voyage",
         "author": "by Alexei Borodin",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/18-days-voyage.jpg",
+          "tablet": "/images/stories/tablet/18-days-voyage.jpg",
+          "mobile": "/images/stories/mobile/18-days-voyage.jpg"
+        }
       },
       {
         "date": "April 9th 2020",
         "title": "Architecturals",
         "author": "by Samantha Brooke",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/architecturals.jpg",
+          "tablet": "/images/stories/tablet/architecturals.jpg",
+          "mobile": "/images/stories/mobile/architecturals.jpg"
+        }
       },
       {
         "date": "April 7th 2020",
         "title": "World Tour 2019",
         "author": "by Timothy Wagner",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/world-tour.jpg",
+          "tablet": "/images/stories/tablet/world-tour.jpg",
+          "mobile": "/images/stories/mobile/world-tour.jpg"
+        }
       },
       {
         "date": "April 3rd 2020",
         "title": "Unforeseen Corners",
         "author": "by William Malcolm",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/unforeseen-corners.jpg",
+          "tablet": "/images/stories/tablet/unforeseen-corners.jpg",
+          "mobile": "/images/stories/mobile/unforeseen-corners.jpg"
+        }
       },
       {
         "date": "March 29th 2020",
         "title": "King on Africa: Part II",
         "author": "by Tim Hillenburg",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/king-on-africa.jpg",
+          "tablet": "/images/stories/tablet/king-on-africa.jpg",
+          "mobile": "/images/stories/mobile/king-on-africa.jpg"
+        }
       },
       {
         "date": "March 21st 2020",
         "title": "The Trip to Nowhere",
         "author": "by Felicia Rourke",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/trip-to-nowhere.jpg",
+          "tablet": "/images/stories/tablet/trip-to-nowhere.jpg",
+          "mobile": "/images/stories/mobile/trip-to-nowhere.jpg"
+        }
       },
       {
         "date": "March 19th 2020",
         "title": "Rage of The Sea",
         "author": "by Mohammed Abdul",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/rage-of-the-sea.jpg",
+          "tablet": "/images/stories/tablet/rage-of-the-sea.jpg",
+          "mobile": "/images/stories/mobile/rage-of-the-sea.jpg"
+        }
       },
       {
         "date": "March 16th 2020",
         "title": "Running Free",
         "author": "by Michelle",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/running-free.jpg",
+          "tablet": "/images/stories/tablet/running-free.jpg",
+          "mobile": "/images/stories/mobile/running-free.jpg"
+        }
       },
       {
         "date": "March 11th 2020",
         "title": "Behind the Waves",
         "author": "by Lamarr Wilson",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/behind-the-waves.jpg",
+          "tablet": "/images/stories/tablet/behind-the-waves.jpg",
+          "mobile": "/images/stories/mobile/behind-the-waves.jpg"
+        }
       },
       {
         "date": "March 9th 2020",
         "title": "Calm Waters",
         "author": "by Samantha Brooke",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/calm-waters.jpg",
+          "tablet": "/images/stories/tablet/calm-waters.jpg",
+          "mobile": "/images/stories/mobile/calm-waters.jpg"
+        }
       },
       {
         "date": "March 5th 2020",
         "title": "The Milky Way",
         "author": "by Benjamin Cruz",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/milky-way.jpg",
+          "tablet": "/images/stories/tablet/milky-way.jpg",
+          "mobile": "/images/stories/mobile/milky-way.jpg"
+        }
       },
       {
         "date": "March 4th 2020",
         "title": "Night at The Dark Forest",
         "author": "by Mohammed Abdul",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/dark-forest.jpg",
+          "tablet": "/images/stories/tablet/dark-forest.jpg",
+          "mobile": "/images/stories/mobile/dark-forest.jpg"
+        }
       },
       {
         "date": "March 1st 2020",
         "title": "Somwarpet’s Beauty",
         "author": "by Michelle",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/somwarpet.jpg",
+          "tablet": "/images/stories/tablet/somwarpet.jpg",
+          "mobile": "/images/stories/mobile/somwarpet.jpg"
+        }
       },
       {
         "date": "February 25th 2020",
         "title": "Land of Dreams",
         "author": "by William Malcolm",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/land-of-dreams.jpg",
+          "tablet": "/images/stories/tablet/land-of-dreams.jpg",
+          "mobile": "/images/stories/mobile/land-of-dreams.jpg"
+        }
       }
     ]
   },

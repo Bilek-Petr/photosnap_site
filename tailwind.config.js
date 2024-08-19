@@ -16,7 +16,7 @@ export default {
       },
       backgroundImage: {
         "overlay-gradient":
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.0001), rgba(0, 0, 0, 0.95))",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.0001), rgba(0, 0, 0, 2.5))",
       },
     },
   },
