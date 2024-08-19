@@ -14,6 +14,10 @@ export default {
         gradient:
           "linear-gradient(to top right, hsl(28, 100%, 79%) 0%, hsl(329, 36%, 59%) 43%, hsl(229, 100%, 67%) 83%)",
       },
+      backgroundImage: {
+        "overlay-gradient":
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.0001), rgba(0, 0, 0, 0.75))",
+      },
     },
   },
   plugins: [

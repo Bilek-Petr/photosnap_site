@@ -36,22 +36,42 @@
       {
         "title": "The Mountains",
         "author": "by John Appleseed",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/mountains.jpg",
+          "tablet": "/images/stories/tablet/mountains.jpg",
+          "mobile": "/images/stories/mobile/mountains.jpg"
+        }
       },
       {
         "title": "Sunset Cityscapes",
         "author": "by Benjamin Cruz",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/cityscapes.jpg",
+          "tablet": "/images/stories/tablet/cityscapes.jpg",
+          "mobile": "/images/stories/mobile/cityscapes.jpg"
+        }
       },
       {
         "title": "18 Days Voyage",
         "author": "by Alexei Borodin",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/18-days-voyage.jpg",
+          "tablet": "/images/stories/tablet/18-days-voyage.jpg",
+          "mobile": "/images/stories/mobile/18-days-voyage.jpg"
+        }
       },
       {
         "title": "Architecturals",
         "author": "by Samantha Brooke",
-        "cta": "Read Story"
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/architecturals.jpg",
+          "tablet": "/images/stories/tablet/architecturals.jpg",
+          "mobile": "/images/stories/mobile/architecturals.jpg"
+        }
       }
     ],
     "features": [
