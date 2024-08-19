@@ -11,7 +11,7 @@ export default function Home({ data }) {
     <>
       <section className="about-banners">
         {data.sections.map((item, index) => (
-          <Banner key={index} data={item} index={index} />
+          <Banner key={index} data={item} index={index} type="home" />
         ))}
       </section>
 
