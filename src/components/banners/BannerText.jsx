@@ -1,7 +1,12 @@
 import Button from "../Button";
 
-export default function BannerText({ bannerData, isFirstBanner, isStory }) {
-  const isDarkMode = isFirstBanner || isStory;
+export default function BannerText({
+  bannerData,
+  isFirstBanner,
+  isStory,
+  isFeature,
+}) {
+  const isDarkMode = isFirstBanner || isStory || isFeature;
 
   const containerStyles = `flex items-center justify-center md:w-[38rem] lg:w-[45rem] lg:px-16 ${
     isDarkMode ? "bg-pureBlack text-pureWhite" : "bg-pureWhite text-pureBlack"
