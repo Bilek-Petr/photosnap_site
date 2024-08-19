@@ -30,7 +30,7 @@ export default function Navbar({ data }) {
   return (
     <>
       <nav className="align-center m-auto flex w-11/12 flex-col py-4 md:flex-row md:justify-between">
-        <div className="flex justify-between md:items-center">
+        <div className="flex items-center justify-between">
           <Link to="/">
             <img src={logo} alt="company's logo" />
           </Link>
