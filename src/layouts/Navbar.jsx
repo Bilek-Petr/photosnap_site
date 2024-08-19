@@ -41,7 +41,7 @@ export default function Navbar({ data }) {
         {menuState && (
           <>
             <div className="flex-col self-center md:flex-row">
-              <NavList listItems={items} />
+              <NavList listItems={items} variant="navigation" />
               <hr className="mb-6 h-[0.6px] w-full bg-lightGrey md:hidden" />
             </div>
             <Button />
