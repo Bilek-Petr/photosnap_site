@@ -1,3 +1,5 @@
+import Button from "../Button";
+
 export default function BannerText({ bannerData, isFirstBanner }) {
   // console.log("BannerText data:", bannerData);
   return (
@@ -13,7 +15,15 @@ export default function BannerText({ bannerData, isFirstBanner }) {
         >
           {bannerData.description}
         </p>
-        <a href="#">{bannerData.cta}</a>
+        {isFirstBanner ? (
+          <Button variant="arrow" color="white">
+            {bannerData.cta}
+          </Button>
+        ) : (
+          <Button variant="arrow" color="black">
+            {bannerData.cta}
+          </Button>
+        )}
       </div>
     </div>
   );

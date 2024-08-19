@@ -1,3 +1,5 @@
+import Button from "../Button";
+
 export default function Card({ cardData }) {
   return (
     <div className="card | relative max-h-[31.5rem] min-h-[20rem] md:min-h-[25rem] lg:min-h-[30rem]">
@@ -13,13 +15,16 @@ export default function Card({ cardData }) {
         </picture>
       </div>
 
-      <div className="card__text | absolute bottom-0 z-10 m-auto w-full p-10 text-pureWhite">
+      <div className="absolute bottom-0 z-10 m-auto w-full p-10 text-pureWhite">
         <h3 className="whitespace-nowrap py-1 text-xl font-bold">
           {cardData.title}
         </h3>
         <p className="text-sm">{cardData.author}</p>
         <hr className="my-4 border-t-[1.4px] opacity-20" />
-        <a href="">{cardData.cta}</a>
+
+        <Button variant="arrow" color="white" className="">
+          {cardData.cta}
+        </Button>
       </div>
     </div>
   );

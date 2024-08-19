@@ -7,7 +7,7 @@ import Button from "../components/Button";
 import MenuToggle from "../components/MenuToggle";
 
 export default function Navbar({ data }) {
-  const { logo, items } = data;
+  const { logo, items, cta } = data;
   const [menuState, setMenuState] = useState(false);
 
   const handleMenu = () => setMenuState((prevState) => !prevState);
@@ -44,7 +44,9 @@ export default function Navbar({ data }) {
               <NavList listItems={items} variant="navigation" />
               <hr className="mb-6 h-[0.6px] w-full bg-lightGrey md:hidden" />
             </div>
-            <Button />
+            <Button variant="rectangle" color="black">
+              {cta}
+            </Button>
           </>
         )}
       </nav>
