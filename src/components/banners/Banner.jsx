@@ -8,7 +8,7 @@ export default function Banner({ data, index }) {
 
   return (
     <div
-      className={`flex h-full w-full flex-col-reverse md:flex-row ${isSecond && "md:flex-row-reverse"}`}
+      className={`flex w-full flex-col-reverse md:h-[40rem] md:flex-row lg:h-[40rem] ${isSecond && "md:flex-row-reverse"}`}
     >
       <BannerText bannerData={data} isFirstBanner={isFirstBanner} />
       <BannerImage bannerData={data} />
