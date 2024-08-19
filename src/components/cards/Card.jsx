@@ -4,7 +4,7 @@ export default function Card({ cardData }) {
       <div className="bg-overlay-gradient absolute inset-0"></div>
       <div className="card__bg-img h-full">
         <picture>
-          <source media="(max-width: 640px)" srcSet={cardData.images.mobile} />
+          <source media="(max-width: 638px)" srcSet={cardData.images.mobile} />
           <img
             className="h-full w-full object-cover"
             src={cardData.images.desktop}
