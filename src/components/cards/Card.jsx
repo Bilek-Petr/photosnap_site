@@ -1,6 +1,6 @@
 export default function Card({ cardData }) {
   return (
-    <div className="card | s:h-[31rem] relative md:h-[25rem] lg:h-[30rem]">
+    <div className="card | relative max-h-[35rem] min-h-[20rem] md:min-h-[25rem] lg:min-h-[30rem]">
       <div className="bg-overlay-gradient absolute inset-0"></div>
       <div className="card__bg-img h-full">
         <picture>
