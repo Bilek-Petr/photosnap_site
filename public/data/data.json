@@ -295,9 +295,16 @@
     },
     "footer": {
       "nav_items": ["Home", "Stories", "Features", "Pricing"],
-      "secondary_cta": "Get an invite",
+      "cta": "Get an invite",
       "copyright": "Copyright 2019. All Rights Reserved",
-      "logo": "/images/shared/desktop/logo-white.svg"
+      "logo": "/images/shared/desktop/logo-white.svg",
+      "site_logos": [
+        "/images/shared/desktop/facebook.svg",
+        "/images/shared/desktop/youtube.svg",
+        "/images/shared/desktop/twitter.svg",
+        "/images/shared/desktop/pinterest.svg",
+        "/images/shared/desktop/instagram.svg"
+      ]
     }
   }
 }
