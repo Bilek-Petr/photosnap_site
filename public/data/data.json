@@ -95,37 +95,56 @@
 
   "features": {
     "header": {
-      "primary_cta": "Get an invite",
+      "cta": "Get an invite",
       "title": "Features",
-      "description": "We make sure all of our features are designed to be loved by every aspiring and even professional photographers who want to share their stories."
+      "description": "We make sure all of our features are designed to be loved by every aspiring and even professional photographers who want to share their stories.",
+      "images": {
+        "desktop": "/images/features/desktop/hero.jpg",
+        "tablet": "/images/features/tablet/hero.jpg",
+        "mobile": "/images/features/mobile/hero.jpg"
+      }
     },
     "features": [
       {
         "title": "100% Responsive",
-        "description": "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen."
+        "description": "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.",
+        "image": "/images/features/desktop/responsive.svg"
       },
       {
         "title": "No Photo Upload Limit",
-        "description": "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go."
+        "description": "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.",
+        "image": "/images/features/desktop/no-limit.svg"
       },
       {
         "title": "Available to Embed",
-        "description": "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more."
+        "description": "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more.",
+        "image": "/images/features/desktop/embed.svg"
       },
       {
         "title": "Custom Domain",
-        "description": "With Photosnap subscriptions, you can host your stories on your own domain. You can also remove our branding!"
+        "description": "With Photosnap subscriptions, you can host your stories on your own domain. You can also remove our branding!",
+        "image": "/images/features/desktop/custom-domain.svg"
       },
       {
         "title": "Boost Your Exposure",
-        "description": "Users that viewed your story or gallery can easily get notified of new and featured stories with our built-in mailing list."
+        "description": "Users that viewed your story or gallery can easily get notified of new and featured stories with our built-in mailing list.",
+        "image": "/images/features/desktop/boost-exposure.svg"
       },
       {
         "title": "Drag & Drop Image",
-        "description": "Easily drag and drop your image and get beautiful shots every time. No over-the-top tooling to add friction to creating stories."
+        "description": "Easily drag and drop your image and get beautiful shots every time. No over-the-top tooling to add friction to creating stories.",
+        "image": "/images/features/desktop/drag-drop.svg"
       }
     ],
-    "beta_message": "We're in Beta. Get your invite today!"
+    "invite": {
+      "beta_message": "We're in Beta. Get your invite today!",
+      "cta": "Get an invite",
+      "images": {
+        "desktop": "/images/shared/desktop/bg-beta.jpg",
+        "tablet": "/images/shared/tablet/bg-beta.jpg",
+        "mobile": "/images/shared/mobile/bg-beta.jpg"
+      }
+    }
   },
   "pricing": {
     "header": {
