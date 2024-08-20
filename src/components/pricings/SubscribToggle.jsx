@@ -1,5 +1,4 @@
 import * as React from "react";
-import { useState } from "react";
 import { styled } from "@mui/material/styles";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
@@ -58,11 +57,7 @@ const IOSSwitch = styled((props) => (
   },
 }));
 
-export default function SubscribToggle({ subData }) {
-  const [isToggled, setIsToggled] = useState(false);
-
-  const handleToggle = () => setIsToggled(!isToggled);
-
+export default function SubscribToggle({ isToggled, onToggle }) {
   const spanClasses = `text-s font-bold text-pureBlack`;
   return (
     <div className="flex items-center justify-center">
@@ -72,10 +67,15 @@ export default function SubscribToggle({ subData }) {
         Monthly
       </span>
       <FormControlLabel
-        control={<IOSSwitch sx={{ m: 3 }} />}
+        control={
+          <IOSSwitch
+            sx={{ m: 3 }}
+            checked={isToggled}
+            onChange={() => onToggle(!isToggled)}
+          />
+        }
         className="!m-0"
         label=""
-        onClick={handleToggle}
       />
       <span
         className={`${spanClasses} ${isToggled ? "opacity-100" : "opacity-50"}`}
