@@ -148,33 +148,39 @@
   },
   "pricing": {
     "header": {
-      "primary_cta": "Get an invite",
+      "cta": "Get an invite",
       "title": "Pricing",
-      "description": "Create your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos."
+      "description": "Create your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos.",
+      "images": {
+        "desktop": "/images/pricing/desktop/hero.jpg",
+        "tablet": "/images/pricing/tablet/hero.jpg",
+        "mobile": "/images/pricing/mobile/hero.jpg"
+      }
     },
-    "pricing_options": [
-      {
-        "billing_options": ["Monthly", "Yearly"]
-      },
+    "bill_options": {
+      "period": ["Monthly", "Yearly"]
+    },
+
+    "sub_plans": [
       {
         "plan": "Basic",
         "description": "Includes basic usage of our platform. Recommended for new and aspiring photographers.",
-        "monthly_price": "$19.00 per month",
-        "yearly_price": "$190.00 per year",
+        "monthly_price": "$19.00",
+        "yearly_price": "$190.00",
         "cta": "Pick Plan"
       },
       {
         "plan": "Pro",
         "description": "More advanced features available. Recommended for photography veterans and professionals.",
-        "monthly_price": "$39.00 per month",
-        "yearly_price": "$390.00 per year",
+        "monthly_price": "$39.00",
+        "yearly_price": "$390.00",
         "cta": "Pick Plan"
       },
       {
         "plan": "Business",
         "description": "Additional features available such as more detailed metrics. Recommended for business owners.",
-        "monthly_price": "$99.00 per month",
-        "yearly_price": "$990.00 per year",
+        "monthly_price": "$99.00",
+        "yearly_price": "$990.00",
         "cta": "Pick Plan"
       }
     ],

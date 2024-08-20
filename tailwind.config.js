@@ -8,6 +8,7 @@ export default {
         lightGrey: "hsl(0, 0%, 87%)",
         pureWhite: "hsl(0, 0%, 100%)",
         cardBg: "rgba(245, 245, 245)",
+        pricePanelLight: "#f5f5f5",
         modal: "rgba(0, 0, 0, 0.5)",
         gradientBlackStart: "rgba(0, 0, 0, 0.0001)",
         gradientBlackEnd: "rgba(0, 0, 0, 0.661222)",
