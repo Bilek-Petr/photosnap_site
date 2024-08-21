@@ -184,22 +184,30 @@
         "cta": "Pick Plan"
       }
     ],
-    "comparison_section": {
+    "price_table": {
       "title": "Compare",
       "subtitle": "The Features",
       "plans": ["Basic", "Pro", "Business"],
-      "features": [
-        "Unlimited Story Posting",
-        "Unlimited Photo Upload",
-        "Embedding Custom Content",
-        "Customize Metadata",
-        "Advanced Metrics",
-        "Photo Downloads",
-        "Search Engine Indexing",
-        "Custom Analytics"
-      ]
+      "featuresAvailabity": {
+        "Unlimited Story Posting": [true, true, true],
+        "Unlimited Photo Upload": [true, true, true],
+        "Embedding Custom Content": [false, true, true],
+        "Customize Metadata": [false, true, true],
+        "Advanced Metrics": [false, false, true],
+        "Photo Downloads": [false, false, true],
+        "Search Engine Indexing": [false, false, true],
+        "Custom Analytics": [false, false, true]
+      }
     },
-    "beta_message": "We're in Beta. Get your invite today!"
+    "invite": {
+      "beta_message": "We're in Beta. Get your invite today!",
+      "cta": "Get an invite",
+      "images": {
+        "desktop": "/images/shared/desktop/bg-beta.jpg",
+        "tablet": "/images/shared/tablet/bg-beta.jpg",
+        "mobile": "/images/shared/mobile/bg-beta.jpg"
+      }
+    }
   },
 
   "stories": {
