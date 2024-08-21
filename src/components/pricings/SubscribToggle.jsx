@@ -60,7 +60,7 @@ const IOSSwitch = styled((props) => (
 export default function SubscribToggle({ isToggled, onToggle }) {
   const spanClasses = `text-s font-bold text-pureBlack`;
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center pt-8">
       <span
         className={`${spanClasses} ${isToggled ? "opacity-50" : "opacity-100"}`}
       >
