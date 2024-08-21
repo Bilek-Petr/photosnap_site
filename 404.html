@@ -3,10 +3,12 @@
   <head>
     <script type="text/javascript">
       const currentPath = window.location.pathname;
-      const newBasePath = "/photosnap_site";
-      const targetPath = newBasePath + currentPath;
+      const basePath = "/photosnap_site";
 
-      window.location.href = targetPath;
+      if (!currentPath.startsWith(basePath)) {
+        const targetPath = basePath + currentPath;
+        window.location.href = targetPath;
+      }
     </script>
   </head>
   <body></body>
