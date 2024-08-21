@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
 
 //pages
 import Home from "./pages/Home";
@@ -15,6 +15,9 @@ import Footer from "./layouts/Footer";
 function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -36,6 +39,15 @@ function App() {
 
     fetchData();
   }, []);
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const redirectPath = params.get("redirect");
+
+    if (redirectPath && redirectPath !== location.pathname) {
+      navigate(redirectPath, { replace: true });
+    }
+  }, [location, navigate]);
 
   if (loading) {
     return <div>Loading...</div>;

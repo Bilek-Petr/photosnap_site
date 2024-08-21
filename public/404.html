@@ -1,7 +1,12 @@
 <!doctype html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/photosnap_site/" />
+    <script type="text/javascript">
+      const currentPath = window.location.pathname;
+
+      window.location.href =
+        "/photosnap_site/" + "?redirect=" + encodeURIComponent(currentPath);
+    </script>
   </head>
   <body></body>
 </html>
