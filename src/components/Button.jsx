@@ -39,10 +39,10 @@ export default function Button({
       {...props}
     >
       {variant === "arrow" && (
-        <span className="relative flex items-center gap-3 group-hover:underline">
+        <span className="relative flex items-center gap-3 group-hover:underline group-focus:underline">
           {children}
           <img
-            className={`ml-2 transition-transform duration-300 group-hover:translate-x-2 ${arrowFilter}`}
+            className={`ml-2 transition-transform duration-300 group-hover:translate-x-2 group-focus:translate-x-2 ${arrowFilter}`}
             src="/images/shared/desktop/arrow.svg"
             alt="arrow icon"
           />

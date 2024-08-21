@@ -24,10 +24,12 @@ export default function Home({ data }) {
       </section>
 
       <section className="features">
-        <div className="mx-auto grid w-10/12 max-w-screen-2xl gap-[4rem] py-[5.5rem] md:grid-cols-3 md:gap-6">
-          {data.features.map((item, index) => (
-            <Feature key={index} featureData={item} />
-          ))}
+        <div className="relative w-full bg-pureWhite">
+          <div className="mx-auto grid w-10/12 max-w-screen-2xl gap-[4rem] py-[5.5rem] md:grid-cols-3 md:gap-6">
+            {data.features.map((item, index) => (
+              <Feature key={index} featureData={item} />
+            ))}
+          </div>
         </div>
       </section>
     </>
