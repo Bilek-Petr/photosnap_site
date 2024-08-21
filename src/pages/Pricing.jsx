@@ -1,5 +1,6 @@
 import Banner from "../components/banners/Banner";
 import PricePlan from "../components/PricePlan";
+import InvitePanel from "../components/InvitePanel";
 
 export default function Pricing({ data }) {
   return (
@@ -10,6 +11,10 @@ export default function Pricing({ data }) {
 
       <section className="subscription-plans">
         <PricePlan data={data} />
+      </section>
+
+      <section>
+        <InvitePanel data={data.invite} />
       </section>
     </>
   );
