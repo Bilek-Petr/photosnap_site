@@ -1,0 +1,28 @@
+.before-gradient-height::before {
+  content: "";
+  height: 100%;
+  width: 0.5rem;
+  background-image: linear-gradient(#5a77ff, #bc7198, #ffc593);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.before-gradient-width::before {
+  content: "";
+  height: 0.4rem;
+  width: 100%;
+  background-image: linear-gradient(
+    to left,
+    hsl(28, 100%, 79%) 0%,
+    hsl(329, 36%, 59%) 43%,
+    hsl(229, 100%, 67%) 83%
+  );
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
