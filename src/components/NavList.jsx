@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { cva } from "class-variance-authority";
 
 const navListStyles = cva("flex", {
@@ -29,15 +29,35 @@ const listItemStyles = cva("", {
 });
 
 export default function NavList({ listItems, variant }) {
+  const navigate = useNavigate();
+
+  const handleClick = (destination) => {
+    navigate(destination);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <ul className={navListStyles({ variant })}>
-      {listItems.map((listItem) => (
-        <li className={listItemStyles({ variant })} key={listItem}>
-          <Link to={listItem === "Home" ? "/" : `/${listItem.toLowerCase()}`}>
-            {listItem}
-          </Link>
-        </li>
-      ))}
+      {listItems.map((listItem) => {
+        const destination =
+          listItem === "Home" ? "/" : `/${listItem.toLowerCase()}`;
+        return (
+          <li className={listItemStyles({ variant })} key={listItem}>
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                handleClick(destination);
+              }}
+            >
+              {listItem}
+            </a>
+          </li>
+        );
+      })}
     </ul>
   );
 }
