@@ -43,8 +43,10 @@ export default function SubPlans({ subData, isToggled }) {
 
   return (
     <div
-      className={`m-auto w-10/12 p-10 ${isPro ? "bg-pureBlack lg:py-14" : "bg-pricePanelLight"}`}
+      className={`relative m-auto w-10/12 p-10 ${isPro ? "bg-pureBlack lg:py-14" : "bg-pricePanelLight"}`}
     >
+      {isPro && <div className="before-gradient-height"></div>}
+
       <div className="text-center sm:grid sm:grid-cols-[15rem_1fr_min-content] sm:grid-rows-[min-content_1fr_1fr] lg:flex lg:flex-col">
         <div
           className={`mb-12 sm:mb-0 sm:text-left lg:mb-12 lg:text-center ${textColor}`}

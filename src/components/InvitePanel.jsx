@@ -3,6 +3,7 @@ import Button from "./Button";
 export default function InvitePanel({ data }) {
   return (
     <div className="relative flex justify-center">
+      <div className="before-gradient-height absolute left-0 top-0 h-full"></div>
       <div className="max-h-72 w-full">
         <picture>
           <source media="(max-width: 770px)" srcSet={data.images.mobile} />
