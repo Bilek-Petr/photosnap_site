@@ -41,11 +41,20 @@ function App() {
   }, []);
 
   useEffect(() => {
+    // Check if the URL contains a 'redirect' query parameter
     const params = new URLSearchParams(location.search);
     const redirectPath = params.get("redirect");
 
-    if (redirectPath && redirectPath !== location.pathname) {
-      navigate(redirectPath, { replace: true });
+    if (redirectPath) {
+      // Ensure the path does not include the base path
+      const cleanPath = redirectPath.startsWith("/photosnap_site")
+        ? redirectPath.replace("/photosnap_site", "")
+        : redirectPath;
+
+      // Navigate to the cleaned path
+      if (cleanPath !== location.pathname) {
+        navigate(cleanPath, { replace: true });
+      }
     }
   }, [location, navigate]);
 
