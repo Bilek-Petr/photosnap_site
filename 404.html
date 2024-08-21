@@ -3,9 +3,10 @@
   <head>
     <script type="text/javascript">
       const currentPath = window.location.pathname;
+      const newBasePath = "/photosnap_site";
+      const targetPath = newBasePath + currentPath;
 
-      window.location.href =
-        "/" + "?redirect=" + encodeURIComponent(currentPath);
+      window.location.href = targetPath;
     </script>
   </head>
   <body></body>
