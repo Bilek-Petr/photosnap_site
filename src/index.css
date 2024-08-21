@@ -5,3 +5,10 @@
 body {
   font-family: "DM Sans", sans-serif;
 }
+
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+  }
+}
