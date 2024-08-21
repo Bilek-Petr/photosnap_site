@@ -33,7 +33,9 @@ export default function NavList({ listItems, variant }) {
     <ul className={navListStyles({ variant })}>
       {listItems.map((listItem) => (
         <li className={listItemStyles({ variant })} key={listItem}>
-          <Link to={`/${listItem.toLowerCase()}`}>{listItem}</Link>
+          <Link to={listItem === "Home" ? "/" : `/${listItem.toLowerCase()}`}>
+            {listItem}
+          </Link>
         </li>
       ))}
     </ul>
