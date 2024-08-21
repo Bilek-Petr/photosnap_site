@@ -8,7 +8,7 @@ export default function Footer({ data }) {
 
   return (
     <>
-      <footer className="bg-pureBlack py-16">
+      <footer className="relative bg-pureBlack py-16">
         <div className="m-auto grid w-10/12 max-w-screen-2xl md:grid-cols-[2fr_4fr_3fr] md:grid-rows-[min-content_7rem_min-content]">
           {/* Logo */}
           <Link to="/" className="flex w-full justify-center md:justify-start">
