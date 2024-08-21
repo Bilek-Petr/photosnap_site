@@ -7,7 +7,7 @@ import "./assets/styles/gradientBefore.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/photosnap_site/">
       <App />
     </BrowserRouter>
   </StrictMode>,
