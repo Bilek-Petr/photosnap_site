@@ -69,7 +69,6 @@ function App() {
         <Route path="/features" element={<Features data={data.features} />} />
         <Route path="/pricing" element={<Pricing data={data.pricing} />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="*/*" element={<NotFound />} />
       </Routes>
 
       <Footer data={data.global.footer} />
