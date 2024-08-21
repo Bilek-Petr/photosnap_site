@@ -6,9 +6,9 @@
         "description": "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
         "cta": "Get an invite",
         "images": {
-          "desktop": "/images/home/desktop/create-and-share.jpg",
-          "tablet": "/images/home/tablet/create-and-share.jpg",
-          "mobile": "/images/home/mobile/create-and-share.jpg"
+          "desktop": "images/home/desktop/create-and-share.jpg",
+          "tablet": "images/home/tablet/create-and-share.jpg",
+          "mobile": "images/home/mobile/create-and-share.jpg"
         }
       },
       {
@@ -16,9 +16,9 @@
         "description": "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
         "cta": "View the stories",
         "images": {
-          "desktop": "/images/home/desktop/beautiful-stories.jpg",
-          "tablet": "/images/home/tablet/beautiful-stories.jpg",
-          "mobile": "/images/home/mobile/beautiful-stories.jpg"
+          "desktop": "images/home/desktop/beautiful-stories.jpg",
+          "tablet": "images/home/tablet/beautiful-stories.jpg",
+          "mobile": "images/home/mobile/beautiful-stories.jpg"
         }
       },
       {
@@ -26,9 +26,9 @@
         "description": "Photosnap can help you create stories that resonate with your audience. Our tool is designed for photographers of all levels, brands, businesses—you name it.",
         "cta": "View the stories",
         "images": {
-          "desktop": "/images/home/desktop/designed-for-everyone.jpg",
-          "tablet": "/images/home/tablet/designed-for-everyone.jpg",
-          "mobile": "/images/home/mobile/designed-for-everyone.jpg"
+          "desktop": "images/home/desktop/designed-for-everyone.jpg",
+          "tablet": "images/home/tablet/designed-for-everyone.jpg",
+          "mobile": "images/home/mobile/designed-for-everyone.jpg"
         }
       }
     ],
@@ -38,9 +38,9 @@
         "author": "by John Appleseed",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/mountains.jpg",
-          "tablet": "/images/stories/tablet/mountains.jpg",
-          "mobile": "/images/stories/mobile/mountains.jpg"
+          "desktop": "images/stories/desktop/mountains.jpg",
+          "tablet": "images/stories/tablet/mountains.jpg",
+          "mobile": "images/stories/mobile/mountains.jpg"
         }
       },
       {
@@ -48,9 +48,9 @@
         "author": "by Benjamin Cruz",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/cityscapes.jpg",
-          "tablet": "/images/stories/tablet/cityscapes.jpg",
-          "mobile": "/images/stories/mobile/cityscapes.jpg"
+          "desktop": "images/stories/desktop/cityscapes.jpg",
+          "tablet": "images/stories/tablet/cityscapes.jpg",
+          "mobile": "images/stories/mobile/cityscapes.jpg"
         }
       },
       {
@@ -58,9 +58,9 @@
         "author": "by Alexei Borodin",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/18-days-voyage.jpg",
-          "tablet": "/images/stories/tablet/18-days-voyage.jpg",
-          "mobile": "/images/stories/mobile/18-days-voyage.jpg"
+          "desktop": "images/stories/desktop/18-days-voyage.jpg",
+          "tablet": "images/stories/tablet/18-days-voyage.jpg",
+          "mobile": "images/stories/mobile/18-days-voyage.jpg"
         }
       },
       {
@@ -68,9 +68,9 @@
         "author": "by Samantha Brooke",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/architecturals.jpg",
-          "tablet": "/images/stories/tablet/architecturals.jpg",
-          "mobile": "/images/stories/mobile/architecturals.jpg"
+          "desktop": "images/stories/desktop/architecturals.jpg",
+          "tablet": "images/stories/tablet/architecturals.jpg",
+          "mobile": "images/stories/mobile/architecturals.jpg"
         }
       }
     ],
@@ -78,17 +78,17 @@
       {
         "title": "100% Responsive",
         "description": "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.",
-        "image": "/images/features/desktop/responsive.svg"
+        "image": "images/features/desktop/responsive.svg"
       },
       {
         "title": "No Photo Upload Limit",
         "description": "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.",
-        "image": "/images/features/desktop/no-limit.svg"
+        "image": "images/features/desktop/no-limit.svg"
       },
       {
         "title": "Available to Embed",
         "description": "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more.",
-        "image": "/images/features/desktop/embed.svg"
+        "image": "images/features/desktop/embed.svg"
       }
     ]
   },
@@ -99,50 +99,50 @@
       "title": "Features",
       "description": "We make sure all of our features are designed to be loved by every aspiring and even professional photographers who want to share their stories.",
       "images": {
-        "desktop": "/images/features/desktop/hero.jpg",
-        "tablet": "/images/features/tablet/hero.jpg",
-        "mobile": "/images/features/mobile/hero.jpg"
+        "desktop": "images/features/desktop/hero.jpg",
+        "tablet": "images/features/tablet/hero.jpg",
+        "mobile": "images/features/mobile/hero.jpg"
       }
     },
     "features": [
       {
         "title": "100% Responsive",
         "description": "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.",
-        "image": "/images/features/desktop/responsive.svg"
+        "image": "images/features/desktop/responsive.svg"
       },
       {
         "title": "No Photo Upload Limit",
         "description": "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.",
-        "image": "/images/features/desktop/no-limit.svg"
+        "image": "images/features/desktop/no-limit.svg"
       },
       {
         "title": "Available to Embed",
         "description": "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more.",
-        "image": "/images/features/desktop/embed.svg"
+        "image": "images/features/desktop/embed.svg"
       },
       {
         "title": "Custom Domain",
         "description": "With Photosnap subscriptions, you can host your stories on your own domain. You can also remove our branding!",
-        "image": "/images/features/desktop/custom-domain.svg"
+        "image": "images/features/desktop/custom-domain.svg"
       },
       {
         "title": "Boost Your Exposure",
         "description": "Users that viewed your story or gallery can easily get notified of new and featured stories with our built-in mailing list.",
-        "image": "/images/features/desktop/boost-exposure.svg"
+        "image": "images/features/desktop/boost-exposure.svg"
       },
       {
         "title": "Drag & Drop Image",
         "description": "Easily drag and drop your image and get beautiful shots every time. No over-the-top tooling to add friction to creating stories.",
-        "image": "/images/features/desktop/drag-drop.svg"
+        "image": "images/features/desktop/drag-drop.svg"
       }
     ],
     "invite": {
       "beta_message": "We're in Beta. Get your invite today!",
       "cta": "Get an invite",
       "images": {
-        "desktop": "/images/shared/desktop/bg-beta.jpg",
-        "tablet": "/images/shared/tablet/bg-beta.jpg",
-        "mobile": "/images/shared/mobile/bg-beta.jpg"
+        "desktop": "images/shared/desktop/bg-beta.jpg",
+        "tablet": "images/shared/tablet/bg-beta.jpg",
+        "mobile": "images/shared/mobile/bg-beta.jpg"
       }
     }
   },
@@ -152,9 +152,9 @@
       "title": "Pricing",
       "description": "Create your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos.",
       "images": {
-        "desktop": "/images/pricing/desktop/hero.jpg",
-        "tablet": "/images/pricing/tablet/hero.jpg",
-        "mobile": "/images/pricing/mobile/hero.jpg"
+        "desktop": "images/pricing/desktop/hero.jpg",
+        "tablet": "images/pricing/tablet/hero.jpg",
+        "mobile": "images/pricing/mobile/hero.jpg"
       }
     },
     "bill_options": {
@@ -203,9 +203,9 @@
       "beta_message": "We're in Beta. Get your invite today!",
       "cta": "Get an invite",
       "images": {
-        "desktop": "/images/shared/desktop/bg-beta.jpg",
-        "tablet": "/images/shared/tablet/bg-beta.jpg",
-        "mobile": "/images/shared/mobile/bg-beta.jpg"
+        "desktop": "images/shared/desktop/bg-beta.jpg",
+        "tablet": "images/shared/tablet/bg-beta.jpg",
+        "mobile": "images/shared/mobile/bg-beta.jpg"
       }
     }
   },
@@ -219,9 +219,9 @@
       "description": "The dissected plateau area, while not actually made up of geological mountains, is popularly called 'mountains,' especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.",
       "cta": "Read the story",
       "images": {
-        "desktop": "/images/stories/desktop/moon-of-appalacia.jpg",
-        "tablet": "/images/stories/tablet/moon-of-appalacia.jpg",
-        "mobile": "/images/stories/mobile/moon-of-appalacia.jpg"
+        "desktop": "images/stories/desktop/moon-of-appalacia.jpg",
+        "tablet": "images/stories/tablet/moon-of-appalacia.jpg",
+        "mobile": "images/stories/mobile/moon-of-appalacia.jpg"
       }
     },
     "stories": [
@@ -231,9 +231,9 @@
         "author": "by John Appleseed",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/mountains.jpg",
-          "tablet": "/images/stories/tablet/mountains.jpg",
-          "mobile": "/images/stories/mobile/mountains.jpg"
+          "desktop": "images/stories/desktop/mountains.jpg",
+          "tablet": "images/stories/tablet/mountains.jpg",
+          "mobile": "images/stories/mobile/mountains.jpg"
         }
       },
       {
@@ -242,9 +242,9 @@
         "author": "by Benjamin Cruz",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/cityscapes.jpg",
-          "tablet": "/images/stories/tablet/cityscapes.jpg",
-          "mobile": "/images/stories/mobile/cityscapes.jpg"
+          "desktop": "images/stories/desktop/cityscapes.jpg",
+          "tablet": "images/stories/tablet/cityscapes.jpg",
+          "mobile": "images/stories/mobile/cityscapes.jpg"
         }
       },
       {
@@ -253,9 +253,9 @@
         "author": "by Alexei Borodin",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/18-days-voyage.jpg",
-          "tablet": "/images/stories/tablet/18-days-voyage.jpg",
-          "mobile": "/images/stories/mobile/18-days-voyage.jpg"
+          "desktop": "images/stories/desktop/18-days-voyage.jpg",
+          "tablet": "images/stories/tablet/18-days-voyage.jpg",
+          "mobile": "images/stories/mobile/18-days-voyage.jpg"
         }
       },
       {
@@ -264,9 +264,9 @@
         "author": "by Samantha Brooke",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/architecturals.jpg",
-          "tablet": "/images/stories/tablet/architecturals.jpg",
-          "mobile": "/images/stories/mobile/architecturals.jpg"
+          "desktop": "images/stories/desktop/architecturals.jpg",
+          "tablet": "images/stories/tablet/architecturals.jpg",
+          "mobile": "images/stories/mobile/architecturals.jpg"
         }
       },
       {
@@ -275,9 +275,9 @@
         "author": "by Timothy Wagner",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/world-tour.jpg",
-          "tablet": "/images/stories/tablet/world-tour.jpg",
-          "mobile": "/images/stories/mobile/world-tour.jpg"
+          "desktop": "images/stories/desktop/world-tour.jpg",
+          "tablet": "images/stories/tablet/world-tour.jpg",
+          "mobile": "images/stories/mobile/world-tour.jpg"
         }
       },
       {
@@ -286,9 +286,9 @@
         "author": "by William Malcolm",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/unforeseen-corners.jpg",
-          "tablet": "/images/stories/tablet/unforeseen-corners.jpg",
-          "mobile": "/images/stories/mobile/unforeseen-corners.jpg"
+          "desktop": "images/stories/desktop/unforeseen-corners.jpg",
+          "tablet": "images/stories/tablet/unforeseen-corners.jpg",
+          "mobile": "images/stories/mobile/unforeseen-corners.jpg"
         }
       },
       {
@@ -297,9 +297,9 @@
         "author": "by Tim Hillenburg",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/king-on-africa.jpg",
-          "tablet": "/images/stories/tablet/king-on-africa.jpg",
-          "mobile": "/images/stories/mobile/king-on-africa.jpg"
+          "desktop": "images/stories/desktop/king-on-africa.jpg",
+          "tablet": "images/stories/tablet/king-on-africa.jpg",
+          "mobile": "images/stories/mobile/king-on-africa.jpg"
         }
       },
       {
@@ -308,9 +308,9 @@
         "author": "by Felicia Rourke",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/trip-to-nowhere.jpg",
-          "tablet": "/images/stories/tablet/trip-to-nowhere.jpg",
-          "mobile": "/images/stories/mobile/trip-to-nowhere.jpg"
+          "desktop": "images/stories/desktop/trip-to-nowhere.jpg",
+          "tablet": "images/stories/tablet/trip-to-nowhere.jpg",
+          "mobile": "images/stories/mobile/trip-to-nowhere.jpg"
         }
       },
       {
@@ -319,9 +319,9 @@
         "author": "by Mohammed Abdul",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/rage-of-the-sea.jpg",
-          "tablet": "/images/stories/tablet/rage-of-the-sea.jpg",
-          "mobile": "/images/stories/mobile/rage-of-the-sea.jpg"
+          "desktop": "images/stories/desktop/rage-of-the-sea.jpg",
+          "tablet": "images/stories/tablet/rage-of-the-sea.jpg",
+          "mobile": "images/stories/mobile/rage-of-the-sea.jpg"
         }
       },
       {
@@ -330,9 +330,9 @@
         "author": "by Michelle",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/running-free.jpg",
-          "tablet": "/images/stories/tablet/running-free.jpg",
-          "mobile": "/images/stories/mobile/running-free.jpg"
+          "desktop": "images/stories/desktop/running-free.jpg",
+          "tablet": "images/stories/tablet/running-free.jpg",
+          "mobile": "images/stories/mobile/running-free.jpg"
         }
       },
       {
@@ -341,9 +341,9 @@
         "author": "by Lamarr Wilson",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/behind-the-waves.jpg",
-          "tablet": "/images/stories/tablet/behind-the-waves.jpg",
-          "mobile": "/images/stories/mobile/behind-the-waves.jpg"
+          "desktop": "images/stories/desktop/behind-the-waves.jpg",
+          "tablet": "images/stories/tablet/behind-the-waves.jpg",
+          "mobile": "images/stories/mobile/behind-the-waves.jpg"
         }
       },
       {
@@ -352,9 +352,9 @@
         "author": "by Samantha Brooke",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/calm-waters.jpg",
-          "tablet": "/images/stories/tablet/calm-waters.jpg",
-          "mobile": "/images/stories/mobile/calm-waters.jpg"
+          "desktop": "images/stories/desktop/calm-waters.jpg",
+          "tablet": "images/stories/tablet/calm-waters.jpg",
+          "mobile": "images/stories/mobile/calm-waters.jpg"
         }
       },
       {
@@ -363,9 +363,9 @@
         "author": "by Benjamin Cruz",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/milky-way.jpg",
-          "tablet": "/images/stories/tablet/milky-way.jpg",
-          "mobile": "/images/stories/mobile/milky-way.jpg"
+          "desktop": "images/stories/desktop/milky-way.jpg",
+          "tablet": "images/stories/tablet/milky-way.jpg",
+          "mobile": "images/stories/mobile/milky-way.jpg"
         }
       },
       {
@@ -374,9 +374,9 @@
         "author": "by Mohammed Abdul",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/dark-forest.jpg",
-          "tablet": "/images/stories/tablet/dark-forest.jpg",
-          "mobile": "/images/stories/mobile/dark-forest.jpg"
+          "desktop": "images/stories/desktop/dark-forest.jpg",
+          "tablet": "images/stories/tablet/dark-forest.jpg",
+          "mobile": "images/stories/mobile/dark-forest.jpg"
         }
       },
       {
@@ -385,9 +385,9 @@
         "author": "by Michelle",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/somwarpet.jpg",
-          "tablet": "/images/stories/tablet/somwarpet.jpg",
-          "mobile": "/images/stories/mobile/somwarpet.jpg"
+          "desktop": "images/stories/desktop/somwarpet.jpg",
+          "tablet": "images/stories/tablet/somwarpet.jpg",
+          "mobile": "images/stories/mobile/somwarpet.jpg"
         }
       },
       {
@@ -396,9 +396,9 @@
         "author": "by William Malcolm",
         "cta": "Read Story",
         "images": {
-          "desktop": "/images/stories/desktop/land-of-dreams.jpg",
-          "tablet": "/images/stories/tablet/land-of-dreams.jpg",
-          "mobile": "/images/stories/mobile/land-of-dreams.jpg"
+          "desktop": "images/stories/desktop/land-of-dreams.jpg",
+          "tablet": "images/stories/tablet/land-of-dreams.jpg",
+          "mobile": "images/stories/mobile/land-of-dreams.jpg"
         }
       }
     ]
@@ -407,19 +407,19 @@
     "nav": {
       "items": ["Stories", "Features", "Pricing"],
       "cta": "Get an invite",
-      "logo": "/images/shared/desktop/logo.svg"
+      "logo": "images/shared/desktop/logo.svg"
     },
     "footer": {
       "nav_items": ["Home", "Stories", "Features", "Pricing"],
       "cta": "Get an invite",
       "copyright": "Copyright 2019. All Rights Reserved",
-      "logo": "/images/shared/desktop/logo-white.svg",
+      "logo": "images/shared/desktop/logo-white.svg",
       "site_logos": [
-        "/images/shared/desktop/facebook.svg",
-        "/images/shared/desktop/youtube.svg",
-        "/images/shared/desktop/twitter.svg",
-        "/images/shared/desktop/pinterest.svg",
-        "/images/shared/desktop/instagram.svg"
+        "images/shared/desktop/facebook.svg",
+        "images/shared/desktop/youtube.svg",
+        "images/shared/desktop/twitter.svg",
+        "images/shared/desktop/pinterest.svg",
+        "images/shared/desktop/instagram.svg"
       ]
     }
   }

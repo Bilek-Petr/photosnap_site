@@ -42,7 +42,7 @@ export default function PricingTable({ tableData }) {
                       {available && (
                         <img
                           className="inline"
-                          src="/images/pricing/desktop/check.svg"
+                          src="images/pricing/desktop/check.svg"
                           alt="check"
                         />
                       )}

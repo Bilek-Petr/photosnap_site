@@ -43,7 +43,7 @@ export default function Button({
           {children}
           <img
             className={`ml-2 transition-transform duration-300 group-hover:translate-x-2 group-focus:translate-x-2 ${arrowFilter}`}
-            src="/images/shared/desktop/arrow.svg"
+            src="images/shared/desktop/arrow.svg"
             alt="arrow icon"
           />
         </span>
