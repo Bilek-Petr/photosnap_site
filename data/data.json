@@ -1,0 +1,426 @@
+{
+  "home": {
+    "sections": [
+      {
+        "title": "Create and share your photo Stories",
+        "description": "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
+        "cta": "Get an invite",
+        "images": {
+          "desktop": "/images/home/desktop/create-and-share.jpg",
+          "tablet": "/images/home/tablet/create-and-share.jpg",
+          "mobile": "/images/home/mobile/create-and-share.jpg"
+        }
+      },
+      {
+        "title": "Beautiful stories every time",
+        "description": "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
+        "cta": "View the stories",
+        "images": {
+          "desktop": "/images/home/desktop/beautiful-stories.jpg",
+          "tablet": "/images/home/tablet/beautiful-stories.jpg",
+          "mobile": "/images/home/mobile/beautiful-stories.jpg"
+        }
+      },
+      {
+        "title": "Designed for everyone",
+        "description": "Photosnap can help you create stories that resonate with your audience. Our tool is designed for photographers of all levels, brands, businesses—you name it.",
+        "cta": "View the stories",
+        "images": {
+          "desktop": "/images/home/desktop/designed-for-everyone.jpg",
+          "tablet": "/images/home/tablet/designed-for-everyone.jpg",
+          "mobile": "/images/home/mobile/designed-for-everyone.jpg"
+        }
+      }
+    ],
+    "stories": [
+      {
+        "title": "The Mountains",
+        "author": "by John Appleseed",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/mountains.jpg",
+          "tablet": "/images/stories/tablet/mountains.jpg",
+          "mobile": "/images/stories/mobile/mountains.jpg"
+        }
+      },
+      {
+        "title": "Sunset Cityscapes",
+        "author": "by Benjamin Cruz",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/cityscapes.jpg",
+          "tablet": "/images/stories/tablet/cityscapes.jpg",
+          "mobile": "/images/stories/mobile/cityscapes.jpg"
+        }
+      },
+      {
+        "title": "18 Days Voyage",
+        "author": "by Alexei Borodin",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/18-days-voyage.jpg",
+          "tablet": "/images/stories/tablet/18-days-voyage.jpg",
+          "mobile": "/images/stories/mobile/18-days-voyage.jpg"
+        }
+      },
+      {
+        "title": "Architecturals",
+        "author": "by Samantha Brooke",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/architecturals.jpg",
+          "tablet": "/images/stories/tablet/architecturals.jpg",
+          "mobile": "/images/stories/mobile/architecturals.jpg"
+        }
+      }
+    ],
+    "features": [
+      {
+        "title": "100% Responsive",
+        "description": "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.",
+        "image": "/images/features/desktop/responsive.svg"
+      },
+      {
+        "title": "No Photo Upload Limit",
+        "description": "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.",
+        "image": "/images/features/desktop/no-limit.svg"
+      },
+      {
+        "title": "Available to Embed",
+        "description": "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more.",
+        "image": "/images/features/desktop/embed.svg"
+      }
+    ]
+  },
+
+  "features": {
+    "header": {
+      "cta": "Get an invite",
+      "title": "Features",
+      "description": "We make sure all of our features are designed to be loved by every aspiring and even professional photographers who want to share their stories.",
+      "images": {
+        "desktop": "/images/features/desktop/hero.jpg",
+        "tablet": "/images/features/tablet/hero.jpg",
+        "mobile": "/images/features/mobile/hero.jpg"
+      }
+    },
+    "features": [
+      {
+        "title": "100% Responsive",
+        "description": "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.",
+        "image": "/images/features/desktop/responsive.svg"
+      },
+      {
+        "title": "No Photo Upload Limit",
+        "description": "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.",
+        "image": "/images/features/desktop/no-limit.svg"
+      },
+      {
+        "title": "Available to Embed",
+        "description": "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more.",
+        "image": "/images/features/desktop/embed.svg"
+      },
+      {
+        "title": "Custom Domain",
+        "description": "With Photosnap subscriptions, you can host your stories on your own domain. You can also remove our branding!",
+        "image": "/images/features/desktop/custom-domain.svg"
+      },
+      {
+        "title": "Boost Your Exposure",
+        "description": "Users that viewed your story or gallery can easily get notified of new and featured stories with our built-in mailing list.",
+        "image": "/images/features/desktop/boost-exposure.svg"
+      },
+      {
+        "title": "Drag & Drop Image",
+        "description": "Easily drag and drop your image and get beautiful shots every time. No over-the-top tooling to add friction to creating stories.",
+        "image": "/images/features/desktop/drag-drop.svg"
+      }
+    ],
+    "invite": {
+      "beta_message": "We're in Beta. Get your invite today!",
+      "cta": "Get an invite",
+      "images": {
+        "desktop": "/images/shared/desktop/bg-beta.jpg",
+        "tablet": "/images/shared/tablet/bg-beta.jpg",
+        "mobile": "/images/shared/mobile/bg-beta.jpg"
+      }
+    }
+  },
+  "pricing": {
+    "header": {
+      "cta": "Get an invite",
+      "title": "Pricing",
+      "description": "Create your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos.",
+      "images": {
+        "desktop": "/images/pricing/desktop/hero.jpg",
+        "tablet": "/images/pricing/tablet/hero.jpg",
+        "mobile": "/images/pricing/mobile/hero.jpg"
+      }
+    },
+    "bill_options": {
+      "period": ["Monthly", "Yearly"]
+    },
+
+    "sub_plans": [
+      {
+        "plan": "Basic",
+        "description": "Includes basic usage of our platform. Recommended for new and aspiring photographers.",
+        "monthly_price": "$19.00",
+        "yearly_price": "$190.00",
+        "cta": "Pick Plan"
+      },
+      {
+        "plan": "Pro",
+        "description": "More advanced features available. Recommended for photography veterans and professionals.",
+        "monthly_price": "$39.00",
+        "yearly_price": "$390.00",
+        "cta": "Pick Plan"
+      },
+      {
+        "plan": "Business",
+        "description": "Additional features available such as more detailed metrics. Recommended for business owners.",
+        "monthly_price": "$99.00",
+        "yearly_price": "$990.00",
+        "cta": "Pick Plan"
+      }
+    ],
+    "price_table": {
+      "title": "Compare",
+      "subtitle": "The Features",
+      "plans": ["Basic", "Pro", "Business"],
+      "featuresAvailabity": {
+        "Unlimited Story Posting": [true, true, true],
+        "Unlimited Photo Upload": [true, true, true],
+        "Embedding Custom Content": [false, true, true],
+        "Customize Metadata": [false, true, true],
+        "Advanced Metrics": [false, false, true],
+        "Photo Downloads": [false, false, true],
+        "Search Engine Indexing": [false, false, true],
+        "Custom Analytics": [false, false, true]
+      }
+    },
+    "invite": {
+      "beta_message": "We're in Beta. Get your invite today!",
+      "cta": "Get an invite",
+      "images": {
+        "desktop": "/images/shared/desktop/bg-beta.jpg",
+        "tablet": "/images/shared/tablet/bg-beta.jpg",
+        "mobile": "/images/shared/mobile/bg-beta.jpg"
+      }
+    }
+  },
+
+  "stories": {
+    "header": {
+      "story_title": "Last month's featured story",
+      "title": "Hazy full moon of Appalachia",
+      "date": "March 2nd 2020",
+      "author": "by John Appleseed",
+      "description": "The dissected plateau area, while not actually made up of geological mountains, is popularly called 'mountains,' especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.",
+      "cta": "Read the story",
+      "images": {
+        "desktop": "/images/stories/desktop/moon-of-appalacia.jpg",
+        "tablet": "/images/stories/tablet/moon-of-appalacia.jpg",
+        "mobile": "/images/stories/mobile/moon-of-appalacia.jpg"
+      }
+    },
+    "stories": [
+      {
+        "date": "April 16th 2020",
+        "title": "The Mountains",
+        "author": "by John Appleseed",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/mountains.jpg",
+          "tablet": "/images/stories/tablet/mountains.jpg",
+          "mobile": "/images/stories/mobile/mountains.jpg"
+        }
+      },
+      {
+        "date": "April 14th 2020",
+        "title": "Sunset Cityscapes",
+        "author": "by Benjamin Cruz",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/cityscapes.jpg",
+          "tablet": "/images/stories/tablet/cityscapes.jpg",
+          "mobile": "/images/stories/mobile/cityscapes.jpg"
+        }
+      },
+      {
+        "date": "April 11th 2020",
+        "title": "18 Days Voyage",
+        "author": "by Alexei Borodin",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/18-days-voyage.jpg",
+          "tablet": "/images/stories/tablet/18-days-voyage.jpg",
+          "mobile": "/images/stories/mobile/18-days-voyage.jpg"
+        }
+      },
+      {
+        "date": "April 9th 2020",
+        "title": "Architecturals",
+        "author": "by Samantha Brooke",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/architecturals.jpg",
+          "tablet": "/images/stories/tablet/architecturals.jpg",
+          "mobile": "/images/stories/mobile/architecturals.jpg"
+        }
+      },
+      {
+        "date": "April 7th 2020",
+        "title": "World Tour 2019",
+        "author": "by Timothy Wagner",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/world-tour.jpg",
+          "tablet": "/images/stories/tablet/world-tour.jpg",
+          "mobile": "/images/stories/mobile/world-tour.jpg"
+        }
+      },
+      {
+        "date": "April 3rd 2020",
+        "title": "Unforeseen Corners",
+        "author": "by William Malcolm",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/unforeseen-corners.jpg",
+          "tablet": "/images/stories/tablet/unforeseen-corners.jpg",
+          "mobile": "/images/stories/mobile/unforeseen-corners.jpg"
+        }
+      },
+      {
+        "date": "March 29th 2020",
+        "title": "King on Africa: Part II",
+        "author": "by Tim Hillenburg",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/king-on-africa.jpg",
+          "tablet": "/images/stories/tablet/king-on-africa.jpg",
+          "mobile": "/images/stories/mobile/king-on-africa.jpg"
+        }
+      },
+      {
+        "date": "March 21st 2020",
+        "title": "The Trip to Nowhere",
+        "author": "by Felicia Rourke",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/trip-to-nowhere.jpg",
+          "tablet": "/images/stories/tablet/trip-to-nowhere.jpg",
+          "mobile": "/images/stories/mobile/trip-to-nowhere.jpg"
+        }
+      },
+      {
+        "date": "March 19th 2020",
+        "title": "Rage of The Sea",
+        "author": "by Mohammed Abdul",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/rage-of-the-sea.jpg",
+          "tablet": "/images/stories/tablet/rage-of-the-sea.jpg",
+          "mobile": "/images/stories/mobile/rage-of-the-sea.jpg"
+        }
+      },
+      {
+        "date": "March 16th 2020",
+        "title": "Running Free",
+        "author": "by Michelle",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/running-free.jpg",
+          "tablet": "/images/stories/tablet/running-free.jpg",
+          "mobile": "/images/stories/mobile/running-free.jpg"
+        }
+      },
+      {
+        "date": "March 11th 2020",
+        "title": "Behind the Waves",
+        "author": "by Lamarr Wilson",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/behind-the-waves.jpg",
+          "tablet": "/images/stories/tablet/behind-the-waves.jpg",
+          "mobile": "/images/stories/mobile/behind-the-waves.jpg"
+        }
+      },
+      {
+        "date": "March 9th 2020",
+        "title": "Calm Waters",
+        "author": "by Samantha Brooke",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/calm-waters.jpg",
+          "tablet": "/images/stories/tablet/calm-waters.jpg",
+          "mobile": "/images/stories/mobile/calm-waters.jpg"
+        }
+      },
+      {
+        "date": "March 5th 2020",
+        "title": "The Milky Way",
+        "author": "by Benjamin Cruz",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/milky-way.jpg",
+          "tablet": "/images/stories/tablet/milky-way.jpg",
+          "mobile": "/images/stories/mobile/milky-way.jpg"
+        }
+      },
+      {
+        "date": "March 4th 2020",
+        "title": "Night at The Dark Forest",
+        "author": "by Mohammed Abdul",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/dark-forest.jpg",
+          "tablet": "/images/stories/tablet/dark-forest.jpg",
+          "mobile": "/images/stories/mobile/dark-forest.jpg"
+        }
+      },
+      {
+        "date": "March 1st 2020",
+        "title": "Somwarpet’s Beauty",
+        "author": "by Michelle",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/somwarpet.jpg",
+          "tablet": "/images/stories/tablet/somwarpet.jpg",
+          "mobile": "/images/stories/mobile/somwarpet.jpg"
+        }
+      },
+      {
+        "date": "February 25th 2020",
+        "title": "Land of Dreams",
+        "author": "by William Malcolm",
+        "cta": "Read Story",
+        "images": {
+          "desktop": "/images/stories/desktop/land-of-dreams.jpg",
+          "tablet": "/images/stories/tablet/land-of-dreams.jpg",
+          "mobile": "/images/stories/mobile/land-of-dreams.jpg"
+        }
+      }
+    ]
+  },
+  "global": {
+    "nav": {
+      "items": ["Stories", "Features", "Pricing"],
+      "cta": "Get an invite",
+      "logo": "/images/shared/desktop/logo.svg"
+    },
+    "footer": {
+      "nav_items": ["Home", "Stories", "Features", "Pricing"],
+      "cta": "Get an invite",
+      "copyright": "Copyright 2019. All Rights Reserved",
+      "logo": "/images/shared/desktop/logo-white.svg",
+      "site_logos": [
+        "/images/shared/desktop/facebook.svg",
+        "/images/shared/desktop/youtube.svg",
+        "/images/shared/desktop/twitter.svg",
+        "/images/shared/desktop/pinterest.svg",
+        "/images/shared/desktop/instagram.svg"
+      ]
+    }
+  }
+}
