@@ -2,11 +2,12 @@
 <html>
   <head>
     <script type="text/javascript">
-      let basePath = "/photosnap_site";
+      var basePath = "/photosnap_site";
 
-      let currentPath = window.location.pathname;
+      var currentPath = window.location.pathname;
 
-      let redirectPath = currentPath.startsWith(basePath)
+      // Only append the base path if it is not already there
+      var redirectPath = currentPath.startsWith(basePath)
         ? currentPath
         : basePath + currentPath;
 
