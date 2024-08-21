@@ -3,20 +3,20 @@
   <head>
     <script type="text/javascript">
       // Extract the current path
-      let currentPath = window.location.pathname;
+      var currentPath = window.location.pathname;
 
       // Base path for your GitHub Pages site
-      let basePath = "/photosnap_site";
+      var basePath = "/photosnap_site";
 
-      // Check if the current path already starts with the base path
+      // Check if the current path already includes the base path
       if (currentPath.startsWith(basePath)) {
-        // Redirect without adding the base path again
+        // Redirect directly to the base path with the redirect query
         window.location.href =
           basePath + "?redirect=" + encodeURIComponent(currentPath);
       } else {
-        // Redirect by adding the base path
+        // Redirect by adding the base path to the current path
         window.location.href =
-          basePath + "?redirect=" + encodeURIComponent(basePath + currentPath);
+          basePath + "?redirect=" + encodeURIComponent(currentPath);
       }
     </script>
   </head>
