@@ -2,12 +2,21 @@
 <html>
   <head>
     <script type="text/javascript">
-      const currentPath = window.location.pathname;
-      const basePath = "/photosnap_site";
+      // Extract the current path
+      let currentPath = window.location.pathname;
 
-      if (!currentPath.startsWith(basePath)) {
-        const targetPath = basePath + currentPath;
-        window.location.href = targetPath;
+      // Base path for your GitHub Pages site
+      let basePath = "/photosnap_site";
+
+      // Check if the current path already starts with the base path
+      if (currentPath.startsWith(basePath)) {
+        // Redirect without adding the base path again
+        window.location.href =
+          basePath + "?redirect=" + encodeURIComponent(currentPath);
+      } else {
+        // Redirect by adding the base path
+        window.location.href =
+          basePath + "?redirect=" + encodeURIComponent(basePath + currentPath);
       }
     </script>
   </head>
