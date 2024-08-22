@@ -28,7 +28,7 @@ export default function Footer({ data }) {
           </Button>
 
           <p className="flex w-full justify-center text-lightGrey opacity-50 md:col-start-3 md:row-start-3 md:justify-end md:text-xs">
-            {copyright} sss
+            {copyright}
           </p>
         </div>
       </footer>
