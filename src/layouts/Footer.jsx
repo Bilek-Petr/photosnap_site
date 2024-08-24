@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import NavList from "../components/NavList";
-import SocialMediaIcons from "../components/SocialMediaIcons";
+import NavList from "../components/nav/NavList";
+import SocialMediaIcons from "../components/nav/SocialMediaIcons";
 import Button from "../components/Button";
 
 export default function Footer({ data }) {
@@ -23,6 +23,7 @@ export default function Footer({ data }) {
             variant="arrow"
             color="white"
             className="flex w-full justify-center py-8 md:col-start-3 md:row-start-1 md:justify-end md:py-0"
+            to="/invite"
           >
             {cta}
           </Button>

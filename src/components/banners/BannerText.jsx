@@ -36,7 +36,11 @@ export default function BannerText({
           </div>
         )}
         <p className={descriptionStyles}>{bannerData.description}</p>
-        <Button variant="arrow" color={buttonColor}>
+        <Button
+          variant="arrow"
+          color={buttonColor}
+          to={bannerData.cta === "Get an invite" ? "/invite" : "/stories"}
+        >
           {bannerData.cta}
         </Button>
       </div>

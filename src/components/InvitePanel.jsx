@@ -18,7 +18,7 @@ export default function InvitePanel({ data }) {
 
       <div className="absolute bottom-16 m-auto w-10/12 max-w-screen-2xl gap-28 text-4xl font-bold uppercase md:flex md:justify-between md:text-5xl">
         <h3 className="text-pureWhite">{data.beta_message}</h3>
-        <Button variant="arrow" color="white" className="shrink-0">
+        <Button variant="arrow" color="white" className="shrink-0" to="/invite">
           {data.cta}
         </Button>
       </div>

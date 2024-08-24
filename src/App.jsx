@@ -7,6 +7,7 @@ import Stories from "./pages/Stories";
 import Features from "./pages/Features";
 import Pricing from "./pages/Pricing";
 import NotFound from "./pages/NotFound";
+import Invite from "./pages/Invite";
 
 //components
 import Navbar from "./layouts/Navbar";
@@ -68,6 +69,7 @@ function App() {
         <Route path="/stories" element={<Stories data={data.stories} />} />
         <Route path="/features" element={<Features data={data.features} />} />
         <Route path="/pricing" element={<Pricing data={data.pricing} />} />
+        <Route path="/invite" element={<Invite />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 

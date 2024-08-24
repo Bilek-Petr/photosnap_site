@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import NavList from "../components/NavList";
+import NavList from "../components/nav/NavList";
 import Button from "../components/Button";
-import MenuToggle from "../components/MenuToggle";
+import MenuToggle from "../components/nav/MenuToggle";
 
 export default function Navbar({ data }) {
   const { logo, items, cta } = data;
@@ -50,6 +50,7 @@ export default function Navbar({ data }) {
                   variant="rectangle"
                   color="black"
                   className="w-10/12 md:w-full"
+                  to="/invite"
                 >
                   {cta}
                 </Button>
@@ -58,7 +59,7 @@ export default function Navbar({ data }) {
           </div>
         )}
         {isDesktop && (
-          <Button variant="rectangle" color="black">
+          <Button variant="rectangle" color="black" to="/invite">
             {cta}
           </Button>
         )}
