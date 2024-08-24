@@ -16,6 +16,9 @@ You can view a live demo of the Photosnap site [here](https://bilek-petr.github.
 ## Project Overview
 This project involves practicing basic React concepts as **useState** , **useEffect** and **Routing** in addition to that, I've used **Tailwind** for styling. The page is fully responsive - mobile, tablet, desktop.
 
+## Form
+fully validate form, **YUP** and **FORMIK** libraries has been applied
+
 
 ## Error Page
 Error page is included, nonetheless I've been struggling with pathing at github pages.
