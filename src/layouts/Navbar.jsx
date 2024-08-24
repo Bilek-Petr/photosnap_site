@@ -39,7 +39,7 @@ export default function Navbar({ data }) {
         </div>
 
         {menuState && (
-          <div className="absolute left-0 right-0 top-[100%] z-10 w-full bg-white shadow-lg md:relative md:top-0 md:flex md:w-auto md:shadow-none">
+          <div className="absolute left-0 right-0 top-[100%] z-10 w-full bg-white shadow-lg transition-all duration-200 md:relative md:top-0 md:flex md:w-auto md:shadow-none">
             <NavList listItems={items} variant="navigation" />
             <hr className="m-auto mb-6 h-[0.6px] w-10/12 bg-lightGrey md:hidden" />
 
