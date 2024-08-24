@@ -43,7 +43,7 @@ export default function InviteForm() {
         <img
           src="svgs/bgForm.svg"
           alt="Background"
-          className="h-[30rem] w-full object-cover md:h-full"
+          className="h-[30.5rem] w-full object-cover md:h-full"
         />
         <div className="absolute inset-0 m-auto flex h-2/3 w-9/12 flex-col items-center justify-center rounded text-center backdrop-blur-[2px]">
           <p className="pb-6 text-5xl font-bold">Invite only right now.</p>
