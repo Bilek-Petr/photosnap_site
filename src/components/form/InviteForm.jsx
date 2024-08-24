@@ -38,7 +38,7 @@ export default function InviteForm() {
     "border-[1px] border-slate-300 p-2 text-slate-500 rounded ";
 
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex h-full flex-col md:flex-row">
       <div className="relative w-full md:w-1/2">
         <img
           src="svgs/bgForm.svg"
