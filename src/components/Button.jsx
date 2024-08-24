@@ -37,7 +37,7 @@ export default function Button({
   const arrowFilter = isArrowVariant && color === "white" ? "invert" : "";
 
   // Combine class names used in return
-  const combinedClassName = `${buttonStyles({ variant, size })} ${className} ${isArrowVariant ? arrowTextColor : ""}`;
+  const combinedClassName = `group ${buttonStyles({ variant, size })} ${className} ${isArrowVariant ? arrowTextColor : ""}`;
 
   const content = isArrowVariant ? (
     <span className="relative flex items-center gap-3 group-hover:underline group-focus:underline">
